@@ -1,7 +1,9 @@
+# Definição da variável para o nome do arquivo
 variable "file_name" {
-  # definir um nome "default" para o arquivo a ser criado.
+  default = "exemplo.txt"
 }
 
+# Definição da variável para o conteúdo do arquivo
 variable "file_content" {
-  # definir um conteúdo "default" para o arquivo a ser criado.
+  default = "Aqui teremos o conteúdo do arquivo de texto"
 }

@@ -1,4 +1,4 @@
 resource "local_file" "exemplo" {
-  # definir um "filename", apontando para a variável definida em "variables.tf"
-  # definir um "content", apontando para a variável definida em "variables.tf"
+  filename = var.file_name    # Nome do arquivo definido pela variável 'file_name'
+  content  = var.file_content # Conteúdo do arquivo definido pela variável 'file_content'
 }
