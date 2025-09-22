@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Infraestrutura como Código
 
 Repositório base para o desenvolvimento de um pipeline que provisiona um recurso (arquivo de texto) através de código.
@@ -62,3 +63,6 @@ Caso tenha o Terraform client instalado localmente, você pode executar os passo
 ## Novo Licenciamento do Terraform
 
 O **Open Tofu** é um fork do Terraform, criado após a migração do Terraform para a licença Business Source License (BSL). Ele mantém a compatibilidade total com os arquivos de configuração do Terraform e utiliza os mesmos comandos (`tofu init`, `tofu plan`, `tofu apply`), tornando a migração transparente para usuários. Licenciado sob Apache 2.0, o Open Tofu é uma solução comunitária que preserva os valores do código aberto.
+=======
+# Pratica8
+>>>>>>> 3dab137b4e2a03c1c848a06c95f32065e967bb3a
